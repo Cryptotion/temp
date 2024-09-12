@@ -177,9 +177,16 @@
     }
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/banner.png) center center no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/banner1.jpeg) center center no-repeat;
+    background-size: contain;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
