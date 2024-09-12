@@ -6,6 +6,10 @@
     --dark: #1C2035;
 }
 
+.org{
+    color: #e69200;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -185,7 +189,7 @@
   }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/bnn.png) center center no-repeat;
+    background: url(../img/bnn.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -402,7 +406,8 @@
 }
 
 .service-item:hover .service-text h5 {
-    color: var(--primary);
+    /* color: var(--primary); */
+    transform: scale(1.2);
 }
 
 .service-item .service-btn {
@@ -455,9 +460,10 @@
 
 .project-carousel .owl-nav {
     position: absolute;
-    top: -100px;
+    /* top: -100px; */
     right: 0;
     display: flex;
+    left: 45%;
 }
 
 .project-carousel .owl-nav .owl-prev,
@@ -478,7 +484,8 @@
 .project-carousel .owl-nav .owl-prev:hover,
 .project-carousel .owl-nav .owl-next:hover {
     background: var(--primary);
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+    transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
@@ -535,7 +542,7 @@
 }
 
 .team-item .team-social li .btn:hover {
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     background: var(--primary);
 }
 
@@ -590,9 +597,10 @@
 
 .testimonial-carousel .owl-nav {
     position: absolute;
-    top: -100px;
+    /* top: -100px; */
     right: 0;
     display: flex;
+    left: 45%;
 }
 
 .testimonial-carousel .owl-nav .owl-prev,
@@ -613,7 +621,8 @@
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     background: var(--primary);
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+    transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
