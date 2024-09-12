@@ -578,7 +578,8 @@
 
 .owl-item.center .testimonial-item *,
 .testimonial-item:hover * {
-    color: #FFFFFF !important;
+    transform: scale(1.05);
+    /* font-weight: var(--bold); */
 }
 
 .testimonial-item img {

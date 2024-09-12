@@ -32,6 +32,42 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Custom CSS to alternate the layout and style the page */
+        .scheme-card {
+            width: 70%;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .scheme-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        /* Alternating background color */
+        .scheme-card:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .scheme-card:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .highlight {
+            background-color: #f0f8ff;
+            border: 2px solid #e69200;
+        }
+
+        .scheme-text {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -103,18 +139,406 @@
 
 
     <!-- 404 Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <div class="row justify-content-center">
+    <div class="container-xxl py-5 wow fadeInUp text-center" data-wow-delay="0.1s">
+        <!-- <div class=""> -->
+            <!-- <div class="row justify-content-center"> -->
                 <h1 class="display-5 mb-5">Schemes</h1>
-                <div class="container">
-                <div class="col-lg-6">
-                    <div class="microsoft container">
-                        <p class="marquee">Windows 8 and Windows RT are focused on your life—your friends and family, your apps, and your stuff. With new things like the <a href="http://windows.microsoft.com/en-US/windows-8/start-screen">Start screen</a>, <a href="http://windows.microsoft.com/en-US/windows-8/charms">charms</a>, and a <a href="http://windows.microsoft.com/en-US/windows-8/microsoft-account">Microsoft account</a>, you can spend less time searching and more time doing.</p>
-                    </div> <br>
+
+        <!-- Scheme 1 -->
+        <marquee height="480" direction="up">
+        <div class="scheme-card border-warning" id="scheme1">
+            <img src="img/scheme1.png" class="img-fluid" alt="Scheme 1 Image">
+            <div class="scheme-text">
+                <h5 class="card-title"><strong> MSME ZED Certification (Zero Defect, Zero Effect)</h5><br> <br>
+                </strong>
+                <p class="card-text">
+                    ZED is a comprehensive initiative by the Indian government to promote quality manufacturing and
+                    eco-friendly processes among Micro, Small, and Medium Enterprises (MSMEs). The certification
+                    encourages MSMEs to adopt best practices that ensure their products are of the highest quality
+                    ("Zero Defect") while minimizing their impact on the environment ("Zero Effect"). It aligns with the
+                    vision of making India a global manufacturing hub by helping MSMEs achieve world-class standards in
+                    production, sustainability, and competitiveness. <br> <br>
+
+                    ZED Certification offers multiple benefits to MSMEs. Firstly, it enhances their market credibility,
+                    allowing them to compete on a global stage by meeting international quality standards. Secondly, the
+                    certification enables MSMEs to optimize their processes, reduce wastage, and adopt energy-efficient
+                    methods, ultimately lowering operational costs. This also helps businesses transition to more
+                    sustainable, environmentally conscious operations, which is increasingly demanded by consumers and
+                    global trade partners. <br><br>
+
+                    Moreover, ZED-certified MSMEs enjoy various incentives such as easier access to credit, subsidies
+                    for certification, and priority in government tenders. These benefits not only reduce financial
+                    constraints but also foster innovation and capacity building within the sector. MSMEs also receive
+                    training and handholding support during the certification process, ensuring they can continually
+                    improve their operations and product quality. <br><br>
+
+                    By obtaining ZED Certification, MSMEs can unlock new opportunities for growth, contribute to India’s
+                    economic progress, and play a pivotal role in achieving the nation’s vision of becoming a global
+                    manufacturing leader. For businesses seeking long-term sustainability, competitiveness, and market
+                    leadership, ZED Certification is a powerful tool that fosters excellence and responsible growth.
+
+                </p>
+            </div>
+        </div>
+
+        <!-- Scheme 2 -->
+        <div class="scheme-card border-warning" id="scheme2">
+            <img src="img/scheme2.png" class="img-fluid" style="width: 80%;" alt="Scheme 2 Image">
+            <div class="scheme-text">
+                <!-- <h5 class="card-title">Scheme 2</h5> -->
+                <p class="card-text">MSME Competitive (Lean) Scheme is a flagship initiative by the Government of India
+                    designed to enhance the competitiveness of Micro, Small, and Medium Enterprises (MSMEs). The primary
+                    goal of the scheme is to encourage MSMEs to adopt Lean Manufacturing practices to optimize their
+                    processes, reduce waste, improve productivity, and enhance overall business efficiency.</p>
+
+
+            </div>
+            <!-- Scheme 3 -->
+            <br>
+            <h5 class="card-title" style="margin-left: 10px;"><strong> Key Features: </strong> </h5>
+            <p class="card-text">
+            <ol style="margin: 15px;">
+                <li>
+                    Lean Manufacturing Techniques: MSMEs are guided in the implementation of techniques such as 5S,
+                    Kaizen, Value Stream Mapping, Total Productive Maintenance (TPM), and Just-in-Time (JIT). These
+                    techniques help in optimizing production processes, minimizing wastage, and improving operational
+                    efficiency.
+                </li><br>
+                <li>
+
+                    Expert Guidance: Under the scheme, MSMEs receive technical and managerial support from qualified
+                    consultants who provide hands-on training and guidance. This includes assistance in identifying
+                    areas of improvement and executing lean methodologies.
+                </li><br>
+                <li>
+
+                    Cluster Approach: MSMEs are organized into groups or clusters to facilitate collective learning and
+                    cost-sharing for implementing lean practices. This approach also fosters collaboration and knowledge
+                    sharing among MSMEs in similar sectors or regions.
+                </li><br>
+                <li>
+
+                    Financial Support: The government provides financial assistance of up to 80% of the cost for lean
+                    manufacturing consultant fees, making it easier for MSMEs to adopt these practices without a
+                    significant financial burden.
+                </li>
+
+            </ol>
+            </p>
+
+
+            <br>
+            <h5 class="card-title" style="margin-left: 10px;"><strong> Benefits for MSMEs: </strong> </h5>
+            <p class="card-text">
+            <ul style="margin: 15px;">
+                <li>
+                    <strong>
+                        Cost Reduction:
+                    </strong> Lean practices focus on eliminating waste and optimizing resource utilization, leading to
+                    reduced production costs.
+                </li>
+                <li>
+                    <strong> Improved Quality: </strong> By refining processes, MSMEs can enhance the quality of their
+                    products, making them more competitive in both domestic and international markets.
+                </li>
+                <li>
+                    <strong> Increased Efficiency: </strong> Lean techniques help MSMEs streamline their operations,
+                    reducing delays, and increasing overall productivity.
+                </li>
+                <li>
+                    <strong> Sustainability: </strong> The focus on resource efficiency and waste minimization
+                    contributes to more sustainable manufacturing practices, aligning with global environmental
+                    standards.
+                </li>
+
+            </ul>
+            </p>
+
+
+
+            <br>
+            <h5 class="card-title" style="margin-left: 10px;"><strong> Impact on MSMEs: </strong> </h5>
+            <p class="card-text" style="margin: 15px;">
+                Adopting lean manufacturing through this scheme not only makes MSMEs more competitive but also positions
+                them as reliable players in the supply chain, capable of delivering high-quality products on time. It
+                improves their ability to meet international standards, opening doors to global markets and boosting
+                their contribution to India's economic growth.
+            </p>
+
+        </div>
+
+
+
+
+        <!-- Scheme 3 -->
+        <div class="scheme-card border-warning" id="scheme1">
+            <img src="img/scheme3.png" class="img-fluid" alt="Scheme 1 Image">
+            <div class="scheme-text">
+                <h5 class="card-title"><strong> ASPIRE: <br> A Scheme for Promoting Innovation, Rural Industry &
+                        Entrepreneurship</h5><br>
+                </strong>
+                <p class="card-text">
+                    The <strong> ASPIRE (A Scheme for Promoting Innovation, Rural Industry & Entrepreneurship) </strong>
+                    scheme is an ambitious initiative launched by the Government of India aimed at fostering innovation,
+                    entrepreneurship, and rural industry development, particularly in the Micro, Small, and Medium
+                    Enterprises (MSME) sector. This scheme is specifically designed to empower small businesses and
+                    boost employment opportunities in rural areas.
+                </p>
+            </div>
+            <br>
+            <h5 class="card-title" style="margin-left: 10px;"><strong> Key Objectives:</strong> </h5>
+            <p class="card-text">
+            <ul style="margin: 15px;">
+                <li>
+                    <strong>
+                        Promote Innovation:
+                    </strong>
+                    <ul>
+                        <li>
+                            Encourage new business ideas and innovative solutions in the MSME sector.
+                        </li>
+
+                        <li>
+                            Support technology-driven startups that focus on rural and traditional industries.
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <strong>
+                        Foster Rural Industry:
+                    </strong>
+                    <ul>
+                        <li>
+                            Enable the development of rural industries through financial and technical assistance. </li>
+
+                        <li>
+                            Create sustainable income sources for people in rural and semi-urban areas.
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <strong>
+                        Support Entrepreneurship: </strong>
+                    <ul>
+                        <li>
+                            Encourage and assist aspiring entrepreneurs, particularly women and youth, in setting up
+                            their enterprises.
+                        </li>
+
+                        <li>
+                            Strengthen the entrepreneurial ecosystem by providing infrastructure and knowledge support.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
+
+            <br>
+            <h5 class="card-title" style="margin-left: 10px;"><strong> Major Components of ASPIRE:</strong> </h5>
+            <p class="card-text">
+            <ul style="margin: 15px;">
+                <li>
+                    <strong>
+                        Livelihood Business Incubators (LBIs):
+                    </strong>
+                    <ul>
+                        <li>
+                            Set up incubation centers to nurture early-stage startups with resources like mentorship,
+                            infrastructure, and seed funding.
+                        </li>
+
+                        <li>
+                            Promote traditional sectors like handicrafts, khadi, agro-industries, etc.
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <strong>
+                        Technology Business Incubators (TBIs):
+                    </strong>
+                    <ul>
+                        <li>
+                            Facilitate advanced technology support for MSMEs.
+
+                        <li>
+                            Provide tools for skill development, modern equipment, and research & development.
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <strong>
+                        Financial Assistance & Grants:
+                    </strong>
+                    <ul>
+                        <li>
+                            ASPIRE provides financial assistance for setting up LBIs and TBIs.
+                        </li>
+
+                        <li>
+                            Grants up to ₹ 1crore are provided for establishing incubators and promoting innovative
+                            ideas.
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <strong>
+                        Skill Development Programs:
+                    </strong>
+                    <ul>
+                        <li>
+                            The scheme focuses on skill enhancement for rural populations, improving their employability
+                            and entrepreneurial capabilities.
+                        </li>
+
+                        <li>
+                            Special training programs for women, youth, and disadvantaged groups.
+                        </li>
+                    </ul>
+                </li>
+
+
+                <br>
+                <h5 class="card-title" style="margin-left: 10px;"><strong> Benefits of ASPIRE: </strong> </h5>
+                <p class="card-text">
+                <ul style="margin: 15px;">
+                    <li>
+                        <strong>
+                            Encourages Local Entrepreneurship: </strong>
+                        With a focus on rural industry, it helps bring local innovations to the forefront, increasing
+                        self-reliance and local production.
+                    </li>
+                    <li>
+                        <strong> Creates Employment Opportunities: </strong> ASPIRE aims to reduce rural unemployment by
+                        fostering local industry, thereby addressing migration to urban areas for jobs.
+
+                    <li>
+                        <strong> Sustainable Development: </strong> By promoting rural industries and innovation, the
+                        scheme supports the sustainable development of India’s villages and semi-urban areas.
+
+                    </li>
+                    <li>
+                        <strong>Access to Funding and Resources: </strong> Entrepreneurs can access necessary funding,
+                        mentorship, and technological assistance through incubators and skill development centers under
+                        the scheme.
+
+                    </li>
+
+                </ul>
+                </p>
+        </div>
+
+
+
+        <!-- Scheme 4 -->
+        <div class="scheme-card border-warning" id="scheme1">
+            <img src="img/scheme4.png" class="img-fluid" alt="Scheme 1 Image">
+            <div class="scheme-text">
+                <h5 class="card-title"><strong> Trade and Industry Related Functional Support Services (TIRFSS) Scheme
+                </h5><br> <br>
+                </strong>
+                <p class="card-text">
+                    The TIRFSS scheme has been designed to bolster the MSME sector, providing essential functional
+                    support to enterprises, especially in industries like Khadi, Coir, textiles, handicrafts, and other
+                    traditional trades. By focusing on enhancing trade capabilities and providing industry-specific
+                    support, TIRFSS aims to bridge the gap between grassroots entrepreneurs and modern business
+                    practices, ensuring they thrive in today’s competitive market.
+
+                </p>
+            </div>
+
+            <br>
+            <h5 class="card-title" style="margin-left: 10px;"><strong> Key Features of TIRFSS: </strong> </h5>
+            <p class="card-text">
+            <ul style="margin: 15px;">
+                <li>
+                    Access to Functional Support:
+                    TIRFSS helps small businesses navigate operational challenges by offering expert guidance on
+                    trade-related activities, including marketing strategies, supply chain management, and compliance
+                    with national and international trade norms.
+
+                </li><br>
+                <li>
+
+                    Integration with Khadi and Coir Board:
+                    The scheme has strong linkages with sectors under the Khadi and Coir Boards, emphasizing
+                    sustainable, eco-friendly products, and providing financial, technical, and infrastructural support
+                    to artisans and entrepreneurs involved in Khadi and Coir production. This focus helps boost rural
+                    employment, while ensuring the preservation and modernization of traditional crafts.
+                </li><br>
+                <li>
+
+                    Encouraging Women and Youth Entrepreneurship:
+                    A key focus of [TIRFSS] is to promote women and youth participation in sectors like Khadi and Coir,
+                    giving them access to resources, mentorship, and funding opportunities. This aligns with India's
+                    broader goal of becoming a global manufacturing and investment hub by leveraging the talent and
+                    innovation of its young population.
+
+                </li><br>
+                <li>
+
+                    Trade Facilitation and Market Access:
+                    The scheme provides MSMEs with tools to enhance product quality, improve packaging, and gain access
+                    to both domestic and international markets. Special incentives are available for Khadi and Coir
+                    industries to expand their reach.
+
+                </li><br>
+
+                <li>
+
+                    Financial and Technical Assistance:
+                    MSMEs in sectors like Khadi and Coir can avail themselves of technical consultancy and financial
+                    grants under TIRFSS. This ensures that businesses are equipped with the latest technology,
+                    production techniques, and innovation to compete on a global scale.
+
+
+                </li>
+                <br>
+                <li>
+
+                    Capacity Building and Skill Development:
+
+                    To help entrepreneurs, especially those in traditional sectors, the scheme provides skill
+                    development programs. These include training for improving craftsmanship, modernizing production
+                    methods, and learning effective trade practices, with special emphasis on Khadi and Coir industries.
+
+
+                </li>
+
+                <br>
+                <li>
+
+                    Empowering the Traditional Economy:
+                    India's traditional industries, particularly Khadi and Coir, form the backbone of its cultural and
+                    economic fabric. By supporting these sectors under the [TIRFSS] scheme, the government aims to
+                    revive and modernize heritage crafts, making them commercially viable while promoting eco-friendly
+                    and sustainable practices.
+
+
+
+                </li>
+
+
+            </ul>
+            </p>
+
+        </div>
+        </marquee>
+
+
+
+    </div>
                 </div>
-                    <button class="toggle">Toggle Beautification</button>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -122,27 +546,14 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Our Office</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <img src="img/make.png" style="width: 100%;" alt="">
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <h4 class=" mb-4">Quick Links</h4>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
@@ -150,47 +561,36 @@
                     <a class="btn btn-link" href="">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Business Hours</h4>
+                    <h4 class="mb-4">Business Hours</h4>
                     <p class="mb-1">Monday - Friday</p>
-                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <h6 >09:00 am - 07:00 pm</h6>
                     <p class="mb-1">Saturday</p>
-                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <h6 >09:00 am - 12:00 pm</h6>
                     <p class="mb-1">Sunday</p>
-                    <h6 class="text-light">Closed</h6>
+                    <h6 >Closed</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-light py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <img src="img/flag.png" style="width: 100%;" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
-
+    
+    
     <!-- Copyright Start -->
     <div class="container-fluid copyright py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="fw-medium text-light" href="#">Your Site Name</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="fw-medium text-light" href="https://htmlcodex.com">HTML Codex</a>
-                    Distributed By <a class="fw-medium text-light" href="https://themewagon.com">ThemeWagon</a>
+                    &copy; <a class="fw-medium text-light" href="#">MSME</a>, All Right Reserved.
                 </div>
             </div>
         </div>
     </div>
     <!-- Copyright End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
