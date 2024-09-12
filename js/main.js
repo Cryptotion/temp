@@ -24,6 +24,11 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
     });
+
+
+    $(".toggle").on("click", function () {
+        $(".container").toggleClass("microsoft");
+    });
     
     
     // Back to top button
