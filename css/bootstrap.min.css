@@ -31,7 +31,6 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
 }
-=======
  */
 :root {
     --bs-blue: #0d6efd;
@@ -60,9 +59,9 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
 }
->>>>>>> 0eab9a89092294cd97ac2e5e60c3cca14f9cbf4c
 
-<<<<<<< HEAD
+
+
 *,
 *::before,
 *::after {
@@ -12564,7 +12563,7 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
-=======
+
 *,
 *::before,
 *::after {
@@ -25068,4 +25067,3 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
->>>>>>> 0eab9a89092294cd97ac2e5e60c3cca14f9cbf4c
